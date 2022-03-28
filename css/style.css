@@ -1,0 +1,306 @@
+@import "null.css";
+
+@font-face {
+	font-family: "BonheurRoyale";
+	src: url("../fonts/BonheurRoyale-Regular.woff2") format("woff2"), url("../fonts/BonheurRoyale-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "EmperatorClassicPro";
+	src: url("../fonts/EmperatorClassicPro-Regular.woff2") format("woff2"), url("../fonts/EmperatorClassicPro-Regular.woff") format("woff");
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Magallanes";
+	src: url("../fonts/MagallanesExtraBold.woff2") format("woff2"), url("../fonts/MagallanesExtraBold.woff") format("woff");
+	font-style: normal;
+	font-weight: 800;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MaritimeChampion";
+	src: url("../fonts/MaritimeChampion-Light.woff2") format("woff2"), url("../fonts/MaritimeChampion-Light.woff") format("woff");
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "NeoTech";
+	src: url("../fonts/NeoTech-MediumItalic.woff2") format("woff2"), url("../fonts/NeoTech-MediumItalic.woff") format("woff");
+	font-style: italic;
+	font-weight: 500;
+	font-display: swap;
+}
+
+body {
+	font-family: "BonheurRoyale", "Sans-serif";
+	font-weight: 400;
+	font-style: normal;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+}
+
+h1 {
+	font-size: 45px;
+	font-family: "Magallanes";
+	font-weight: 800;
+	font-style: italic;
+	color: seagreen;
+	text-align: center;
+	margin-bottom: 50px;
+	text-decoration: underline;
+	text-transform: capitalize;
+	box-shadow: inset 5px 5px 5px 5px black;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "EmperatorClassicPro";
+	font-size: 40px;
+	color: red;
+	margin-bottom: 50px;
+	text-shadow: 20px 20px 10px blue, 20px -20px 10px blue;
+	border-radius: 15px;
+	background-color: #c5819c;
+}
+
+h3 {
+	font-size: 35px;
+	color: purple;
+	font-family: "NeoTech";
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 50px;
+	box-shadow: inset 5px 5px 5px 5px black;
+	border-radius: 20px;
+	text-align: center;
+}
+
+h4 {
+	font-size: 35px;
+	color: purple;
+	max-width: 300px;
+	background-color: seagreen;
+	margin: 0px 0px 50px 40px;
+	box-shadow: inset 5px 5px 5px 5px black;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.block-one .text-1 {
+	color: blue;
+	text-align: right;
+	background-color: #76bc84;
+	margin-bottom: 30px;
+	font-size: 25px;
+	font-family: "NeoTech";
+	font-weight: 500;
+	font-style: italic;
+}
+
+.text-2 {
+	color: purple;
+	font-size: 25px;
+	text-decoration: line-through;
+	background-color: #dde5b3;
+	margin: 0 0 30px 0;
+	text-align: center;
+	font-family: "Magallanes";
+	font-weight: 800;
+}
+
+.text-3 {
+	font-size: 25px;
+	color: green;
+	background-color: #b3e4e6;
+	text-shadow: 10px 10px 10px black;
+	margin: 0 0 30px 0;
+	text-transform: lowercase;
+}
+
+.block-one .text-4 {
+	color: whitesmoke;
+	font-size: 25px;
+	background-color: #b8597a;
+	margin-bottom: 30px;
+	line-height: 2;
+	text-decoration: overline;
+	font-family: "EmperatorClassicPro";
+	font-weight: 400;
+}
+
+div .text-5 {
+	color: #6b9e9e;
+	font-size: 25px;
+	background-color: #ffd000;
+	text-indent: 40px;
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+}
+
+.text-6 {
+	font-size: 40px;
+	color: crimson;
+	background-color: #29787a;
+	text-align: center;
+	letter-spacing: 4px;
+	margin-bottom: 30px;
+	margin-top: 60px;
+}
+
+.block-one .text-7 {
+	color: #ad33ff;
+	font-size: 28px;
+	background-color: #4da85b;
+	margin-bottom: 30px;
+	word-spacing: 10px;
+	text-align: right;
+	font-family: "NeoTech";
+	font-weight: 500;
+	font-style: italic;
+}
+
+.block-two .text-8 {
+	color: skyblue;
+	font-size: 28px;
+	background-color: #8a652d;
+	padding: 40px;
+	margin: 0 0 50px 0;
+}
+
+.text-9 {
+	font-size: 30px;
+	color: rosybrown;
+	background-color: #ffff00;
+	margin: 10%;
+}
+
+div .text-10 {
+	font-size: 29px;
+	color: blue;
+	background-color: #994667;
+	font-family: "NeoTech";
+	font-weight: 500;
+	font-style: italic;
+	width: 500px;
+	margin: 0 0 50px auto;
+}
+
+.text-11 {
+	color: sienna;
+	font-size: 28px;
+	background-color: #465472;
+	max-height: 100px;
+	overflow: hidden;
+	padding: 40px 50px 30px 60px;
+	margin-bottom: 50px;
+}
+
+.text-12 {
+	font-size: 30px;
+	color: blueviolet;
+	max-height: 75px;
+	overflow: scroll;
+	background-color: seagreen;
+	margin-bottom: 50px;
+}
+
+.text-13 {
+	font-size: 25px;
+	color: #272f3f;
+	background-color: orange;
+	border: 10px dotted blueviolet;
+	padding: 10px;
+}
+
+.text-14 {
+	color: red;
+	font-size: 30px;
+	background-color: seagreen;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top: 50px;
+	box-shadow: 10px 10px 20px 20px black;
+	margin-bottom: 50px;
+}
+
+.text-15 {
+	font-size: 25px;
+	color: blue;
+	background-color: crimson;
+	outline: 10px dashed green;
+	margin: 40px;
+	border-radius: 30px;
+}
+
+.block-two .text-16 {
+	font-size: 30px;
+	color: pink;
+	background-color: blue;
+	opacity: 0.5;
+	margin-bottom: 50px;
+	font-family: "Magallanes";
+	font-weight: 800;
+}
+
+.text-17 {
+	font-size: 30px;
+	color: green;
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto;
+	outline: 5px dashed red;
+	font-family: "Magallanes";
+	font-weight: 800;
+	margin-bottom: 50px;
+}
+
+.span-1 {
+	font-size: 30px;
+	color: red;
+	margin: 30px;
+	background-color: purple;
+}
+
+.span-2 {
+	font-size: 30px;
+	color: blue;
+	background-color: pink;
+	padding: 40px;
+}
+
+.span-3 {
+	font-size: 30px;
+	outline: 10px dashed red;
+	margin-bottom: 100px;
+	display: block;
+}
+
+.link {
+	display: block;
+	font-size: 30px;
+	color: blue;
+	background-color: #f79178;
+	margin: 0px auto;
+	max-width: 200px;
+	border-radius: 30px;
+	text-align: center;
+	box-shadow: inset 5px 5px 5px 5px black;
+	outline: 5px dashed red;
+	margin-bottom: 50px;
+}
